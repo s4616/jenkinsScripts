@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 ## INFO: https://docs.docker.com/compose/install/
 
 set -euf pipefail
