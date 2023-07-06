@@ -4,8 +4,8 @@ USER root
 
 # aws cli install
 COPY scripts/install-awscli.sh /install-awscli.sh
-RUN chmod u+x /install-awscli.sh.sh && \
-    /install-awscli.sh.sh
+RUN chmod u+x /install-awscli.sh && \
+    /install-awscli.sh
 
 # docker install
 COPY scripts/install-docker.sh /install-docker.sh
