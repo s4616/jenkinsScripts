@@ -3,7 +3,7 @@ ARG DOCKER_GID=1000
 USER root
 
 # aws cli install
-COPY scripts/install-awscli.sh.sh /install-awscli.sh.sh
+COPY scripts/install-awscli.sh /install-awscli.sh
 RUN chmod u+x /install-awscli.sh.sh && \
     /install-awscli.sh.sh
 
